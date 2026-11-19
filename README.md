@@ -1,8 +1,8 @@
-# Yoto Radio Station Picker 📻
+# YotoFM 📻
 
-Pick an internet radio station from [radio-browser.info](https://www.radio-browser.info/) and turn it into a
-[Yoto](https://yotoplay.com/) MYO card that streams it live. A card can hold several stations — each one becomes
-its own track.
+YotoFM lets you pick internet radio stations from [radio-browser.info](https://www.radio-browser.info/) and turn
+them into a [Yoto](https://yotoplay.com/) MYO card that streams them live. A card can hold several stations — each
+one becomes its own track.
 
 Fully static, no backend: both the station directory and Yoto's login/content APIs are designed to be called
 directly from browser JavaScript.
@@ -14,7 +14,9 @@ directly from browser JavaScript.
 You'll need a client registered at [dashboard.yoto.dev](https://dashboard.yoto.dev/) (no client secret needed —
 this flow is designed for a browser-only app):
 
-1. Register a client, with `http://localhost:5173/` as an allowed callback/logout URL for local dev.
+1. Register a client, with `http://localhost:5173/` (local dev) and `https://dochoffiday.github.io/YotoFM/`
+   (the deployed GitHub Pages site) as allowed callback/logout URLs. They must match the site's URL exactly,
+   including the trailing slash.
 2. Scopes: `user:content:manage`, `family:library:view`, and `offline_access`.
 3. Copy the client_id into [`js/config.js`](js/config.js).
 

@@ -81,7 +81,7 @@ export async function createCard({ title, stations, accessToken, coverImageUrl, 
     return display;
   }));
 
-  const metadata = { description: "Created with Yoto Radio Station Picker" };
+  const metadata = { description: "Created with YotoFM" };
   if (coverImageUrl) {
     metadata.cover = { imageL: coverImageUrl };
   }

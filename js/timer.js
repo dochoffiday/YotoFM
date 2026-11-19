@@ -9,7 +9,7 @@ import { generateDefaultCoverImage } from "./coverArt.js";
 
 const TIMERS = [1, 5, 10]; // minutes — keep in sync with timer/Generate.cs
 // The player streams these, so they must be the published URLs, not localhost.
-const AUDIO_BASE = "https://dochoffiday.github.io/YotoRadio/timer/audio/";
+const AUDIO_BASE = "https://dochoffiday.github.io/YotoFM/timer/audio/";
 const CONTENT_URL = "https://api.yotoplay.com/content";
 const ICON_UPLOAD_URL = "https://api.yotoplay.com/media/displayIcons/user/me/upload";
 

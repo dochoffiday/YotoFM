@@ -25,7 +25,7 @@ let currentAudio = null;
 let currentAudioButton = null;
 
 const FAVICON_FALLBACK = "img/favicon-fallback.png";
-const DRAFT_KEY = "yoto_radio_draft";
+const DRAFT_KEY = "yotofm_draft";
 
 // Ordered list of stations selected for the card being built. Order here is
 // the track/chapter order on the physical Yoto card. Persisted to

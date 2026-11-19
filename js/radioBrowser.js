@@ -2,7 +2,7 @@
 // https://api.radio-browser.info/
 
 const API_BASE = "https://de1.api.radio-browser.info";
-const USER_AGENT = "yoto-radio-picker/0.1 (github.com/aj/YotoRadio)";
+const USER_AGENT = "yotofm/0.1 (github.com/dochoffiday/YotoFM)";
 
 export async function searchStations({ name = "", tag = "", countrycode = "", limit = 30 } = {}) {
   const params = new URLSearchParams({
